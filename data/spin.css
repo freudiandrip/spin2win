@@ -1,0 +1,21 @@
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation-duration: 10s;
+  animation-name: spinning;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+/* .spin {
+    transform: rotate(180deg);
+} */
